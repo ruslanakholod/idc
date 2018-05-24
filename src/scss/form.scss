@@ -1,1 +1,36 @@
 @import '_variable';
+
+.form {
+
+  text-align: center;
+  max-width: 360px;
+  border: 13px solid #D2D9FF;
+  background-color: white;
+  font-family: GothaPro;
+
+  &--container {
+    margin: 20px;
+  }
+
+  &--header {
+    margin-bottom: 20px;
+    .flaticon-party {
+      font-size: 55px;
+    }
+
+    h2 {
+      margin: 10px 0;
+    }
+
+    p {
+      font-weight: normal;
+      line-height: 1.2;
+    }
+  }
+
+
+
+  &--bottom {
+    margin-top: 20px;
+  }
+}
