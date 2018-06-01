@@ -6,9 +6,6 @@
   border: 13px solid $border-form-color;
   background-color: $white;
   font-family: GothaPro;
-  .uppercase {
-    text-transform: uppercase;
-  }
   &--container {
     margin: 29px 18px;
   }
@@ -35,7 +32,7 @@
       font-size: 30px;
       div {
         span {
-          font-weight: 600;
+
         }
         .timer--text {
           margin-top: -2px;
