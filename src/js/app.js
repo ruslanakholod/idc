@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  $('.multiple-items').slick({
+  $('.partners').slick({
     slidesToShow: 7,
     autoplay: true,
     autoplaySpeed: 2000,
