@@ -4,7 +4,59 @@ $( document ).ready(function() {
     autoplay: true,
     autoplaySpeed: 2000,
     swipeToSlide: true,
-    arrows: false
+    arrows: false,
+    responsive: [
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 5,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      swipeToSlide: true,
+      arrows: false
+    }
+  },
+  {
+    breakpoint: 960,
+    settings: {
+      slidesToShow: 4,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      swipeToSlide: true,
+      arrows: false
+    }
+  },
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 3,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      swipeToSlide: true,
+      arrows: false
+    }
+  },
+  {
+    breakpoint: 400,
+    settings: {
+      slidesToShow: 2,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      swipeToSlide: true,
+      arrows: false
+    }
+  },
+  {
+    breakpoint: 320,
+    settings: {
+      slidesToShow: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      swipeToSlide: true,
+      arrows: false
+    }
+  }
+]
   });
   //mask phone
   jQuery(function($) {
