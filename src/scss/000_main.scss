@@ -3,40 +3,53 @@
 @font-face {
   font-family: GothaPro;
   font-weight: 800;
-  src: url("../fonts/GothaPro/GothamPro-Black.woff"); }
+  src: url("../fonts/GothaPro/GothamPro-Black.woff");
+}
 
 @font-face {
   font-family: GothaPro;
   font-weight: 600;
-  src: url("../fonts/GothaPro/GothamPro-Bold.woff"); }
+  src: url("../fonts/GothaPro/GothamPro-Bold.woff");
+}
 
 @font-face {
   font-family: GothaPro;
   font-weight: 300;
-  src: url("../fonts/GothaPro/GothamPro-Light.woff"); }
+  src: url("../fonts/GothaPro/GothamPro-Light.woff");
+}
 
 @font-face {
   font-family: GothaPro;
   font-weight: 400;
-  src: url("../fonts/GothaPro/GothamPro-Medium.woff"); }
+  src: url("../fonts/GothaPro/GothamPro-Medium.woff");
+}
 
 @font-face {
   font-family: GothaProRegular;
   font-weight: normal;
-  src: url("../fonts/GothaPro/GothamPro-Regular.woff"); }
+  src: url("../fonts/GothaPro/GothamPro-Regular.woff");
+}
 
 @font-face {
   font-family: Raleway;
   font-weight: 600;
-  src: url("../fonts/RaleWay/Raleway-Bold.ttf"); }
+  src: url("../fonts/RaleWay/Raleway-Bold.ttf");
+}
 
 @font-face {
   font-family: Raleway;
   font-weight: normal;
-  src: url("../fonts/RaleWay/Raleway-Regular.ttf"); }
+  src: url("../fonts/RaleWay/Raleway-Regular.ttf");
+}
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.font-weight-bold {
+  font-weight: 600;
 }

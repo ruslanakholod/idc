@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>form</title>
+  <link rel="stylesheet" href="../../public/styles/style.css">
+</head>
+<body>
+  <div class="form">
+    <div class="form--container">
+      <div class="form--header">
+        <img class="form-image" src="../../public/images/icons/fireworks.svg">
+        <h2 class="form--text-h2">Акция!</h2>
+        <p class="form--text">Аренда офиса на два месяца <span class="uppercase" >бесплатно!</span></p>
+      </div>
+      <form class="form--input-button">
+        <input class="input" type="text" name="name" required placeholder="Ваше имя">
+        <input class="input" type="text" name="phone" id="phone" required placeholder="+375 (29) ___-__-__">
+        <button class="button uppercase" type="button" name="button">забронировать</button>
+      </form>
+      <div class="form--timer">
+        <div class="timer">
+          <div>
+            <span class="font-weight-bold" id="days"></span>
+            <p class="timer--text">дней</p>
+          </div>
+          <span class="font-weight-bold" id="delimiter">:</span>
+          <div>
+            <span class="font-weight-bold" id="hours"></span>
+            <p class="timer--text">часов</p>
+          </div>
+          <span class="font-weight-bold" id="delimiter">:</span>
+          <div>
+            <span class="font-weight-bold" id="minutes"></span>
+            <p class="timer--text">минут</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../../public/js/scripts.js"></script>
+</body>
+</html>
